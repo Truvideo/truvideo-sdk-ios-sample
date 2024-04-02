@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A07F5C212BBC7AA50083343A /* TruvideoSdkiOSDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07F5C202BBC7AA50083343A /* TruvideoSdkiOSDemoApp.swift */; };
+		A07F5C232BBC7AA50083343A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07F5C222BBC7AA50083343A /* ContentView.swift */; };
+		A07F5C252BBC7AA60083343A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A07F5C242BBC7AA60083343A /* Assets.xcassets */; };
+		A07F5C282BBC7AA60083343A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A07F5C272BBC7AA60083343A /* Preview Assets.xcassets */; };
+		A07F5C302BBC7B8B0083343A /* TruvideoSdk in Frameworks */ = {isa = PBXBuildFile; productRef = A07F5C2F2BBC7B8B0083343A /* TruvideoSdk */; };
+		A07F5C332BBC7B9B0083343A /* TruvideoSdkCamera in Frameworks */ = {isa = PBXBuildFile; productRef = A07F5C322BBC7B9B0083343A /* TruvideoSdkCamera */; };
+		A07F5C362BBC7BCC0083343A /* TruvideoSdkMedia in Frameworks */ = {isa = PBXBuildFile; productRef = A07F5C352BBC7BCC0083343A /* TruvideoSdkMedia */; };
+		A07F5C382BBC7C300083343A /* ContentViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07F5C372BBC7C300083343A /* ContentViewViewModel.swift */; };
+		A07F5C3A2BBC9F530083343A /* UploadViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07F5C392BBC9F530083343A /* UploadViewModel.swift */; };
+		A07F5C3C2BBC9FDE0083343A /* UploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07F5C3B2BBC9FDE0083343A /* UploadView.swift */; };
+		A07F5C422BBCAD5C0083343A /* String+toSha256String.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07F5C412BBCAD5C0083343A /* String+toSha256String.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A07F5C1D2BBC7AA50083343A /* TruvideoSdkiOSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TruvideoSdkiOSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A07F5C202BBC7AA50083343A /* TruvideoSdkiOSDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruvideoSdkiOSDemoApp.swift; sourceTree = "<group>"; };
+		A07F5C222BBC7AA50083343A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A07F5C242BBC7AA60083343A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A07F5C272BBC7AA60083343A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A07F5C372BBC7C300083343A /* ContentViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewViewModel.swift; sourceTree = "<group>"; };
+		A07F5C392BBC9F530083343A /* UploadViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewModel.swift; sourceTree = "<group>"; };
+		A07F5C3B2BBC9FDE0083343A /* UploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadView.swift; sourceTree = "<group>"; };
+		A07F5C412BBCAD5C0083343A /* String+toSha256String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+toSha256String.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A07F5C1A2BBC7AA50083343A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A07F5C362BBC7BCC0083343A /* TruvideoSdkMedia in Frameworks */,
+				A07F5C332BBC7B9B0083343A /* TruvideoSdkCamera in Frameworks */,
+				A07F5C302BBC7B8B0083343A /* TruvideoSdk in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A07F5C142BBC7AA50083343A = {
+			isa = PBXGroup;
+			children = (
+				A07F5C1F2BBC7AA50083343A /* TruvideoSdkiOSDemo */,
+				A07F5C1E2BBC7AA50083343A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A07F5C1E2BBC7AA50083343A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A07F5C1D2BBC7AA50083343A /* TruvideoSdkiOSDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A07F5C1F2BBC7AA50083343A /* TruvideoSdkiOSDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A07F5C202BBC7AA50083343A /* TruvideoSdkiOSDemoApp.swift */,
+				A07F5C222BBC7AA50083343A /* ContentView.swift */,
+				A07F5C3B2BBC9FDE0083343A /* UploadView.swift */,
+				A07F5C372BBC7C300083343A /* ContentViewViewModel.swift */,
+				A07F5C392BBC9F530083343A /* UploadViewModel.swift */,
+				A07F5C412BBCAD5C0083343A /* String+toSha256String.swift */,
+				A07F5C242BBC7AA60083343A /* Assets.xcassets */,
+				A07F5C262BBC7AA60083343A /* Preview Content */,
+			);
+			path = TruvideoSdkiOSDemo;
+			sourceTree = "<group>";
+		};
+		A07F5C262BBC7AA60083343A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A07F5C272BBC7AA60083343A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A07F5C1C2BBC7AA50083343A /* TruvideoSdkiOSDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A07F5C2B2BBC7AA60083343A /* Build configuration list for PBXNativeTarget "TruvideoSdkiOSDemo" */;
+			buildPhases = (
+				A07F5C192BBC7AA50083343A /* Sources */,
+				A07F5C1A2BBC7AA50083343A /* Frameworks */,
+				A07F5C1B2BBC7AA50083343A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TruvideoSdkiOSDemo;
+			packageProductDependencies = (
+				A07F5C2F2BBC7B8B0083343A /* TruvideoSdk */,
+				A07F5C322BBC7B9B0083343A /* TruvideoSdkCamera */,
+				A07F5C352BBC7BCC0083343A /* TruvideoSdkMedia */,
+			);
+			productName = TruvideoSdkiOSDemo;
+			productReference = A07F5C1D2BBC7AA50083343A /* TruvideoSdkiOSDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A07F5C152BBC7AA50083343A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					A07F5C1C2BBC7AA50083343A = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = A07F5C182BBC7AA50083343A /* Build configuration list for PBXProject "TruvideoSdkiOSDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A07F5C142BBC7AA50083343A;
+			packageReferences = (
+				A07F5C2E2BBC7B8B0083343A /* XCRemoteSwiftPackageReference "truvideo-sdk-ios-core" */,
+				A07F5C312BBC7B9B0083343A /* XCRemoteSwiftPackageReference "truvideo-sdk-ios-camera" */,
+				A07F5C342BBC7BCC0083343A /* XCRemoteSwiftPackageReference "truvideo-sdk-ios-media" */,
+			);
+			productRefGroup = A07F5C1E2BBC7AA50083343A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A07F5C1C2BBC7AA50083343A /* TruvideoSdkiOSDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A07F5C1B2BBC7AA50083343A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A07F5C282BBC7AA60083343A /* Preview Assets.xcassets in Resources */,
+				A07F5C252BBC7AA60083343A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A07F5C192BBC7AA50083343A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A07F5C232BBC7AA50083343A /* ContentView.swift in Sources */,
+				A07F5C3C2BBC9FDE0083343A /* UploadView.swift in Sources */,
+				A07F5C422BBCAD5C0083343A /* String+toSha256String.swift in Sources */,
+				A07F5C3A2BBC9F530083343A /* UploadViewModel.swift in Sources */,
+				A07F5C212BBC7AA50083343A /* TruvideoSdkiOSDemoApp.swift in Sources */,
+				A07F5C382BBC7C300083343A /* ContentViewViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A07F5C292BBC7AA60083343A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A07F5C2A2BBC7AA60083343A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A07F5C2C2BBC7AA60083343A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TruvideoSdkiOSDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We use the camera to record videos";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We use the microphone to record audio";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourorganizationname.TruvideoSdkiOSDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A07F5C2D2BBC7AA60083343A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TruvideoSdkiOSDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We use the camera to record videos";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We use the microphone to record audio";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourorganizationname.TruvideoSdkiOSDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A07F5C182BBC7AA50083343A /* Build configuration list for PBXProject "TruvideoSdkiOSDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A07F5C292BBC7AA60083343A /* Debug */,
+				A07F5C2A2BBC7AA60083343A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A07F5C2B2BBC7AA60083343A /* Build configuration list for PBXNativeTarget "TruvideoSdkiOSDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A07F5C2C2BBC7AA60083343A /* Debug */,
+				A07F5C2D2BBC7AA60083343A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A07F5C2E2BBC7B8B0083343A /* XCRemoteSwiftPackageReference "truvideo-sdk-ios-core" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Truvideo/truvideo-sdk-ios-core";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.0;
+			};
+		};
+		A07F5C312BBC7B9B0083343A /* XCRemoteSwiftPackageReference "truvideo-sdk-ios-camera" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Truvideo/truvideo-sdk-ios-camera";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.3;
+			};
+		};
+		A07F5C342BBC7BCC0083343A /* XCRemoteSwiftPackageReference "truvideo-sdk-ios-media" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Truvideo/truvideo-sdk-ios-media";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A07F5C2F2BBC7B8B0083343A /* TruvideoSdk */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A07F5C2E2BBC7B8B0083343A /* XCRemoteSwiftPackageReference "truvideo-sdk-ios-core" */;
+			productName = TruvideoSdk;
+		};
+		A07F5C322BBC7B9B0083343A /* TruvideoSdkCamera */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A07F5C312BBC7B9B0083343A /* XCRemoteSwiftPackageReference "truvideo-sdk-ios-camera" */;
+			productName = TruvideoSdkCamera;
+		};
+		A07F5C352BBC7BCC0083343A /* TruvideoSdkMedia */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A07F5C342BBC7BCC0083343A /* XCRemoteSwiftPackageReference "truvideo-sdk-ios-media" */;
+			productName = TruvideoSdkMedia;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A07F5C152BBC7AA50083343A /* Project object */;
+}
